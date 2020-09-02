@@ -29,6 +29,6 @@ let package = Package(
             dependencies: ["MathOperation"]),
         .testTarget(
             name: "MathOperationPackageTests",
-            dependencies: ["MathOperationPackage"]),
+            dependencies: ["MathOperation"]),
     ]
 )
